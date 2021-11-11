@@ -1,0 +1,23 @@
+{
+  "name": "quick-hash",
+  "version": "0.1.0",
+  "description": "Create a hash from cmd",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"nodemon --watch dist/index.js --quiet\""
+  },
+  "keywords": [
+    "hash"
+  ],
+  "bin": {
+    "qhash": "dist/index.js"
+  },
+  "author": "radu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.4.4"
+  }
+}
