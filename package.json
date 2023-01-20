@@ -4,7 +4,8 @@
   "description": "Create a hash from cmd",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "concurrently \"tsc --watch\" \"nodemon --watch dist/index.js --quiet\""
+    "dev": "concurrently \"tsc --watch\" \"nodemon --watch dist/index.js --quiet\"",
+    "build": "tsc"
   },
   "keywords": [
     "hash"

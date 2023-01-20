@@ -4,8 +4,8 @@ Create a hash from the command line
 
 ## Installation
 
-This package is not in the npm registry. It is in a custom registry  
-`npm i -g quick-hash --registry http://home.venovedo.ro:4000`
+Install this package by running:
+`npm i -g quick-hash`
 
 ## Usage
 
